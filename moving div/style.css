@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  #game-container {
+    width: 800px;
+    height: 600px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+  }
+  
+  #player {
+    width: 20px;
+    height: 20px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 1px solid black
+  }
+
+  #start-stop-btn{
+    align-self: center
+  }
+
+  #square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  #score {
+    font-size: 24px;
+  }
+  
